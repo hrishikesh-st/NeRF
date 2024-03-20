@@ -1,4 +1,4 @@
-# Buildings_built_in_minutes
+# Neural Radiance Field (NeRF)
 Repository for Computer Vision (RBE549) Project 2 Phase 2: Buildings built in minutes - NeRF (Neural Radiance Fields)
 
 ### Steps to run the code:
@@ -65,7 +65,7 @@ For Lego Dataset:
 </p>
 
 
-## Example Outputs
+## Outputs:
 
 ![Example Output 1](media/NeRF_lego.gif)
 ![Example Output 2](media/NeRF_ship.gif)
