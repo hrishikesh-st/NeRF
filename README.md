@@ -40,3 +40,34 @@ python Wrapper.py --log_dir trial_logs --data_path Data/lego/ -v
 ```
 
 The code automatically creates the `Logs` folder and saves the logs of the current training run in the `log_dir` subfolder. It contains a `model` subfolder which has the best model weights and the model weights at every `save_every` epoch. It also contains a `plots` subfolder with the plots for the training loss and PSNR, plotted versus number of iterations. There is also a `media` subfolder which saves the generated test image at every `test_every` epoch. Finally, the text file `logs.txt` saves the training hyperparameters and logs for each epoch.
+
+
+
+### Training Loss Over Time
+For Lego Dataset:
+<p align="left">
+  <img src="media/Train Loss.png" alt="Stitched Image" style="width: 850px;"/>
+</p>
+
+
+## Test Image Evolution
+<p align="left">
+  <img src="media/training_progress.png" alt="Stitched Image" style="width: 850px;"/>
+</p>
+
+### Outputs Comparison:
+<p align="left">
+  <img src="media/lego_comp_1.png" alt="Stitched Image" style="width: 850px;"/>
+</p>
+
+<p align="left">
+  <img src="media/ship_comp_1.png" alt="Stitched Image" style="width: 850px;"/>
+</p>
+
+
+## Example Outputs
+
+![Example Output 1](media/NeRF_lego.gif)
+![Example Output 2](media/NeRF_ship.gif)
+
+
